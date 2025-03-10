@@ -1,10 +1,10 @@
 === Candid Advanced Toolset ===
 Contributors: candidthemes
 Tags: demo data, one click demo import
-Requires at least: 4.6
-Tested up to: 6.2
+Requires at least: 6.3
+Tested up to: 6.7
 Requires PHP: 4.6
-Stable tag: 1.0.8
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,10 @@ Check all the available options inside Appearance > One Click Demo Import
 1. Candid Advanced Toolset
 
 == Changelog ==
+= 1.1.0 =
+* Tested with Latest WP Version
+* Added demo content for new theme Rectified Magazine
+
 = 1.0.9 =
 * Tested with Latest WP Version
 

@@ -4,7 +4,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 /*
 Plugin Name: Candid Advanced Toolset
 Description: Demo Import for Candid Themes.
-Version:     1.0.9
+Version:     1.1.0
 Author:      Candid Themes
 Author URI:  http://www.candidthemes.com
 License:     GPLv2 or later
@@ -39,6 +39,14 @@ if ( 'Grip Pro' == $candid_themes_name->name || 'Grip Pro' == $candid_themes_nam
 if ( 'Refined Magazine' == $candid_themes_name->name || 'Refined Magazine' == $candid_themes_name->parent_theme ) {
 
 	 require plugin_dir_path( __FILE__ ) . '/refined-magazine-dummy-data/candid-refined-magazine-demo-import.php';
+}
+
+/**
+ * Condition for Refined Magazine Demo Import.
+*/
+if ( 'Rectified Magazine' == $candid_themes_name->name || 'Rectified Magazine' == $candid_themes_name->parent_theme ) {
+
+	require plugin_dir_path( __FILE__ ) . '/rectified-magazine-dummy-data/candid-rectified-magazine-demo-import.php';
 }
 
 /**
